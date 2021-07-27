@@ -1,0 +1,32 @@
+{
+  "name": "cli-enpesos",
+  "version": "0.0.3",
+  "description": "CLI for development of enpesos.com",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "backend",
+    "enpesos",
+    "enpesos.com",
+    "gcastillodev"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GCastilloDev/enpesos-cli.git"
+  },
+  "homepage": "https://github.com/GCastilloDev/enpesos-cli",
+  "bugs": {
+    "url" : "https://github.com/GCastilloDev/enpesos-cli/issues" ,  
+    "email" : "gustavoc.mx@gmail.com"
+  },
+  "author": "Gustavo Castillo <gustavoc.mx@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ora": "^5.4.1",
+    "yargs": "^17.0.1"
+  }
+}
